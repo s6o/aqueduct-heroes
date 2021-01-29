@@ -1,4 +1,4 @@
-# Aquedact Heroes
+# Aqueduct Heroes
 
 My version of the [Aqueduct Heroes](https://aqueduct.io/docs/tut/getting-started/)
 tutorial.
