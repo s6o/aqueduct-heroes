@@ -1,4 +1,4 @@
-import 'package:heroes/heroes.dart';
+import 'package:aquedact_heros/aquedact_heros.dart';
 
 class Hero extends ManagedObject<_Hero> implements _Hero {}
 
