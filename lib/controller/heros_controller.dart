@@ -1,5 +1,4 @@
 import 'package:aqueduct/aqueduct.dart';
-import 'package:heroes/heroes.dart';
 
 class HeroesController extends Controller {
   final _heroes = [
