@@ -1,9 +1,9 @@
 import 'package:aquedact_heros/aquedact_heros.dart';
 
 Future main() async {
-  final app = Application<AquedactHerosChannel>()
-      ..options.configurationFilePath = "config.yaml"
-      ..options.port = 8888;
+  final app = Application<AquedactHeroesChannel>()
+    ..options.configurationFilePath = "config.yaml"
+    ..options.port = 8888;
 
   final count = Platform.numberOfProcessors ~/ 2;
   await app.start(numberOfInstances: count > 0 ? count : 1);

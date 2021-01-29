@@ -6,7 +6,7 @@ import 'aquedact_heros.dart';
 ///
 /// Override methods in this class to set up routes and initialize services like
 /// database connections. See http://aqueduct.io/docs/http/channel/.
-class AquedactHerosChannel extends ApplicationChannel {
+class AquedactHeroesChannel extends ApplicationChannel {
   ManagedContext context;
 
   /// Initialize services in this method.
