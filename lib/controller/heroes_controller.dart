@@ -1,6 +1,10 @@
 import 'package:aqueduct/aqueduct.dart';
 
 class HeroesController extends ResourceController {
+  final ManagedContext context;
+
+  HeroesController(this.context);
+
   final _heroes = [
     {'id': 11, 'name': 'Mr. Nice'},
     {'id': 12, 'name': 'Narco'},

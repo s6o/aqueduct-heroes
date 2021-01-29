@@ -37,7 +37,7 @@ class AquedactHeroesChannel extends ApplicationChannel {
   Controller get entryPoint {
     final router = Router();
 
-    router.route("/heroes/[:id]").link(() => HeroesController());
+    router.route("/heroes/[:id]").link(() => HeroesController(context));
 
     return router;
   }
