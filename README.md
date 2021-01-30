@@ -3,10 +3,23 @@
 NB! Currently broken:
 
 ```bash
--- Aqueduct CLI Version: 3.3.0+1
--- Aqueduct project version: 3.3.0+1
-*** Uncaught error
-    RangeError: Invalid value: Not in range 0..1114111, inclusive: -1
+Precompiling executables... (5.5s)
+Failed to precompile aqueduct:aqueduct:
+../../.pub-cache/hosted/pub.dartlang.org/isolate_executor-2.0.2+3/lib/src/source_generator.dart:6:8: Error: Error when reading '../../.pub-cache/hosted/pub.dartlang.org/analyzer-0.41.2/lib/analyzer.dart': No such file or directory
+import 'package:analyzer/analyzer.dart';
+       ^
+../../.pub-cache/hosted/pub.dartlang.org/isolate_executor-2.0.2+3/lib/src/source_generator.dart:52:17: Error: Type 'ClassDeclaration' not found.
+  static Future<ClassDeclaration> _getClass(Type type) async {
+                ^^^^^^^^^^^^^^^^
+../../.pub-cache/hosted/pub.dartlang.org/isolate_executor-2.0.2+3/lib/src/source_generator.dart:54:22: Error: Method not found: 'parseDartFile'.
+    final fileUnit = parseDartFile(uri.toFilePath(windows: Platform.isWindows));
+                     ^^^^^^^^^^^^^
+../../.pub-cache/hosted/pub.dartlang.org/isolate_executor-2.0.2+3/lib/src/source_generator.dart:58:28: Error: 'ClassDeclaration' isn't a type.
+        .where((u) => u is ClassDeclaration)
+                           ^^^^^^^^^^^^^^^^
+../../.pub-cache/hosted/pub.dartlang.org/isolate_executor-2.0.2+3/lib/src/source_generator.dart:59:28: Error: 'ClassDeclaration' isn't a type.
+        .map((cu) => cu as ClassDeclaration)
+                           ^^^^^^^^^^^^^^^^
 ```
 
 My version of the [Aqueduct Heroes](https://aqueduct.io/docs/tut/getting-started/)
