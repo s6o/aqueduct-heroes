@@ -1,5 +1,14 @@
 # Aqueduct Heroes
 
+NB! Currently broken:
+
+```bash
+-- Aqueduct CLI Version: 3.3.0+1
+-- Aqueduct project version: 3.3.0+1
+*** Uncaught error
+    RangeError: Invalid value: Not in range 0..1114111, inclusive: -1
+```
+
 My version of the [Aqueduct Heroes](https://aqueduct.io/docs/tut/getting-started/)
 tutorial.
 
